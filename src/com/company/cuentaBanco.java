@@ -1,6 +1,6 @@
 package com.company;
 
-public class CuentaBanco {
+public class cuentaBanco {
     /*
     * 4. Modele el objeto que representa la cuenta de un banco, con identificador, nombre
         y balance.
@@ -28,7 +28,7 @@ public class CuentaBanco {
     private String nombre;
     private int balance;
 
-    public CuentaBanco(int identificador,String nombre,int balance)
+    public cuentaBanco(int identificador, String nombre, int balance)
     {
         this.indentificador=identificador;
         this.nombre=nombre;

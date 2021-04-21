@@ -2,7 +2,7 @@ package com.company;
 
 import java.text.DecimalFormat;
 
-public class EjercicioItemVenta {
+public class objetoItemVenta {
 
     /*
     * 3. Modele el objeto Ítem de Venta con las siguientes propiedades, identificador,
@@ -22,7 +22,7 @@ public class EjercicioItemVenta {
     public  int Cantidad;
     public  double precioUnitario;
 
-    public EjercicioItemVenta(int Identificador,String Descripcion,int Cantidad,double precioUnitario)
+    public objetoItemVenta(int Identificador, String Descripcion, int Cantidad, double precioUnitario)
     {
         this.Identificador=Identificador;
         this.Descripcion=Descripcion;

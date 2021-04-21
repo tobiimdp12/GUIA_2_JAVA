@@ -2,7 +2,7 @@ package com.company;
 
 import java.text.DecimalFormat;
 
-public class EjercicioRectangulo {
+public class objetoRectangulo {
     /*
     *
 1. Modele el objeto Rectángulo con sus propiedades, ancho y alto.
@@ -24,7 +24,7 @@ f. Inicializar un objeto Rectángulo con los valores por defecto y verificar
 
 
 
-    public EjercicioRectangulo(float ancho,float alto)
+    public objetoRectangulo(float ancho, float alto)
     {
         this.ancho=ancho;
         this.alto=alto;

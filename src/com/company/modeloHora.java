@@ -1,6 +1,6 @@
 package com.company;
 import java.util.Scanner;
-public class EjercicioHora {
+public class modeloHora {
 
     /*
     * 5. Modele el objeto Hora, teniendo en cuenta sus atributos, hora, minuto y segundo.
@@ -22,7 +22,7 @@ public class EjercicioHora {
 
 
 
-    public EjercicioHora()
+    public modeloHora()
     {
         do {
             System.out.println("INGRESE UNA HORA");
@@ -99,13 +99,13 @@ public class EjercicioHora {
         System.out.println(horario);
     }
 
-    public EjercicioHora avanzar1Seg(EjercicioHora instancia)
+    public modeloHora avanzar1Seg(modeloHora instancia)
     {
         instancia.segundo+=1;
         return instancia;
     }
 
-    public EjercicioHora retroceder1Seg(EjercicioHora instancia)
+    public modeloHora retroceder1Seg(modeloHora instancia)
     {
         instancia.segundo-=1;
         return instancia;

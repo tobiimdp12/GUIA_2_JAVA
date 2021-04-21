@@ -2,7 +2,7 @@ package com.company;
 
 import java.text.DecimalFormat;
 
-public class EjercicioEmpleado {
+public class objetoEmpleado {
 
     /*
     *2. Modele el objeto Empleado que posee las siguientes características, dni, nombre,
@@ -29,7 +29,7 @@ public class EjercicioEmpleado {
     public String apellido;
     public double salario;
 
-    public EjercicioEmpleado(int dni,String nombre,String apellido,double salario)
+    public objetoEmpleado(int dni, String nombre, String apellido, double salario)
     {
         this.dni=dni;
         this.nombre=nombre;
